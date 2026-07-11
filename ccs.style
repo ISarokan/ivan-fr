@@ -12,7 +12,7 @@ header:not(.hero){
     padding:40px 20px;
 }
 
-header h1{
+header:not(.hero) h1{
     margin:0;
     font-size:54px;
     letter-spacing:4px;
