@@ -7,7 +7,7 @@ body{
     font-family:Georgia, serif;
 }
 
-header{
+header:not(.hero){
     text-align:center;
     padding:40px 20px;
 }
