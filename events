@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ivan Sarokan - ÉVÉNEMENTS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header style="background:url('images/luberon2.jpg') center center / cover no-repeat; height:500px; display:flex; align-items:center; justify-content:center;">
+
+<div style="background:rgba(255,255,255,0.88); padding:70px 50px 40px 50px; text-align:center; max-width:650px; box-shadow:0 10px 30px rgba(0,0,0,.35);">
+
+<h1 style="margin:35px 0 0 0; font-size:56px; letter-spacing:4px; font-weight:bold;">
+ÉVÉNEMENTS
+</h1>
+  
+<p style="margin:10px 0 25px 0;font-style:italic;font-size:24px;">
+Passés, présents, à venir
+</p>
+
+<img src="images/couv6.jpg" alt="Le Projet Sarokan" style="width:220px;box-shadow:0 8px 25px rgba(0,0,0,.35);">
+
+<h2 style="margin-top:30px;">LE PROJET SAROKAN</h2>
+
+<p>
+Le quotidien d'un écrivain.
+</p>
+
+</div>
+
+</header>
+
+<main style="max-width:1000px;margin:auto;padding:60px 30px;">
+
+<h2>Passé</h2>
+
+<p>
+
+Samedi 11 juillet, à Gemenos. 
+  Participation à la soirée d'ouverture des Escrivades.
+  
+</p>
+
+<hr style="margin:60px 0;">
+
+<h2>Présent (du 11 au 17 juillet) </h2>
+
+<p>
+
+14 juillet : participation Au 14 juillet citoyen de Lauris. Dédicace.
+
+</p>
+
+<h2>À venir</h2>
+
+<p>
+- Soirées de lancement des ventes des deux figuiers. Lauris, Marseille, Paris…
+- Lecture non stop des deux figuiers ; date et lieu à préciser (dans lecadre des maisons de la voix ?)
+- Offre promotionnelle des deux figuiers sous forme de feuilleton (en collaboration)
+</p>
+
+
+<hr style="margin:60px 0;">
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:30px;">
+
+<div>
+
+<h3>Accueil</h3>
+
+<p>Revenir aux Deux Figuiers.</p>
+
+<p><a href="index.html">Lire →</a></p>
+
+</div>
+
+<div>
+
+<h3>Le prochain roman</h3>
+
+<p>Les Amnésiques</p>
+
+<p><a href="prochain.html">Découvrir →</a></p>
+
+</div>
+
+<div>
+
+<h3>Le projet</h3>
+
+<p>L'œuvre complète.</p>
+
+<p><a href="projet.html">Lire →</a></p>
+
+</div>
+
+<div>
+
+<h3>Les Éditions</h3>
+
+<p>Présentation de la maison.</p>
+
+<p><a href="editions.html">Découvrir →</a></p>
+
+</div>
+<div>
+
+<h3>L'auteur.</h3>
+<p>Ivan Sarokan.</p>
+<p><a href="auteur.html">Lire →</a></p>
+
+</div>
+
+</main>
+
+<footer style="text-align:center;padding:40px;border-top:1px solid #ddd;">
+
+© Ivan Sarokan — Éditions du Luberon
+
+</footer>
+
+</body>
+</html>
