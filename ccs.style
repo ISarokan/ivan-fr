@@ -1,38 +1,40 @@
-/* ===========================================================
-   IVAN SAROKAN - Éditions du Luberon
-   VERSION 1.1 — styles unifiés
-   Ce fichier remplace style.css; ne pas modifier style.css directement.
-   =========================================================== */
+/* ==========================================================
+   IVAN SAROKAN — Éditions du Luberon
+   ========================================================== */
 
-/* Reset & box sizing (from previous style.css) */
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
-/* Base typography (merged) */
 body{
-    font-family:Georgia, serif;
+    font-family:Georgia,serif;
     line-height:1.6;
     color:#222;
-
-    /* Background image kept from original ccs.style */
     background:url("images/luberon.jpg") center center fixed;
     background-size:cover;
 }
 
-h1, h2, h3{
+h1,h2,h3{
     font-weight:normal;
 }
 
-h1{ font-size:58px; letter-spacing:5px; }
-h2{ font-size:42px; letter-spacing:2px; margin:30px 0 20px 0; }
-h3{ font-size:20px; }
+h1{
+    font-size:58px;
+    letter-spacing:5px;
+}
 
-/* ==========================================================
-   PRINCIPAUX BLOCS (conservés depuis ccs.style)
-   ========================================================== */
+h2{
+    font-size:42px;
+    margin:30px 0 20px;
+}
+
+h3{
+    font-size:20px;
+}
+
+/* ===== Structure ===== */
 
 header,
 nav,
@@ -41,7 +43,6 @@ footer{
 
     width:90%;
     max-width:1200px;
-
     margin:25px auto;
 
     background:rgba(255,255,255,.92);
@@ -52,300 +53,63 @@ footer{
 
 }
 
-/* HEADER */
-
 header{
-
     padding:40px;
-
     text-align:center;
-
-}
-
-header h1{
-
-    margin:0;
-
-    font-size:58px;
-
-    font-weight:normal;
-
-    letter-spacing:5px;
-
 }
 
 .editeur{
-
     margin-top:12px;
-
     font-size:24px;
-
-    color:#666;
-
     font-style:italic;
-
+    color:#666;
 }
 
-/* MENU */
-
 nav{
-
     text-align:center;
-
     padding:18px;
-
 }
 
 nav a{
-
     text-decoration:none;
-
     color:#333;
-
     margin:0 18px;
-
     font-size:18px;
-
 }
 
 nav a:hover{
-
     color:#7b2d26;
-
 }
-
-/* CONTENU */
 
 main{
-
     padding:50px;
-
 }
 
-/* LIVRE */
+/* ===== Livre ===== */
 
 .livre{
-
     display:flex;
-
     flex-wrap:wrap;
-
     align-items:center;
-
     gap:60px;
-
 }
 
 .livre img{
-
     width:320px;
-
     box-shadow:0 10px 25px rgba(0,0,0,.25);
-
 }
 
 .texte{
-
     flex:1;
-
     min-width:300px;
-
-}
-
-.texte h2{
-
-    font-size:42px;
-
-    margin-top:0;
-
 }
 
 .texte p{
-
     font-size:22px;
-
     line-height:1.7;
-
 }
-
-/* PRIX */
 
 .prix{
-
-    font-size:34px;
-
     margin:30px 0;
-
-}
-
-/* BOUTON — version visuelle conservée depuis ccs.style (classe .book-button)
-   Quelques ajustements : hover et accessibilité */
-
-.book-button{
-   display:block;
-   width:100%;
-   max-width:400px;
-   height:auto;
-   margin:1.5rem auto;
-
-   background: linear-gradient(to bottom,#f8efcf 0%,#efdba2 45%,#e3c26f 100%);
-   color:#4a2e18;
-   font-family:Georgia,serif;
-
-   font-size:20px;
-   font-weight:bold;
-   letter-spacing:1px;
-   border:none;
-   border-left:28px solid #6a4323;
-   border-right:8px solid #fff8e7;
-   border-radius:3px;
-   position:relative;
-   box-shadow: 0 14px 30px rgba(0,0,0,.28), inset 0 2px 0 rgba(255,255,255,.7), inset 0 -2px 0 rgba(120,90,40,.15);
-   cursor:pointer;
-   padding:0.9rem 1rem;
-   text-align:center;
-   text-decoration:none;
-}
-
-.book-button:hover{
-    transform:translateY(-2px);
-    box-shadow: 0 18px 36px rgba(0,0,0,.3);
-}
-
-.book-button:active{
-    transform:translateY(0);
-}
-
-/* Variante plus simple (utilisée parfois) */
-.book-button--simple{
-    display:inline-block;
-    margin-top:20px;
-    padding:15px 30px;
-    background-color:#7b2d26;
-    color:white;
-    border-radius:4px;
-    border:none;
-    font-size:16px;
-    font-weight:bold;
-    cursor:pointer;
-}
-
-.book-button--simple:hover{ background-color:#5a1f1a; }
-
-/* SÉPARATEUR */
-
-hr{
-
-    margin:70px 0;
-
-    border:none;
-
-    border-top:1px solid #d0d0d0;
-
-}
-
-/* BLOCS */
-
-.blocs{
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-
-    gap:30px;
-
-}
-
-.bloc{
-
-    background:white;
-
-    padding:30px;
-
-    border-radius:10px;
-
-    box-shadow:0 5px 15px rgba(0,0,0,.08);
-
-    transition:.25s;
-
-}
-
-.bloc:hover{
-
-    transform:translateY(-5px);
-
-}
-
-.bloc h3{
-
-    margin-top:0;
-
-}
-
-.bloc a{
-
-    color:#7b2d26;
-
-    text-decoration:none;
-
-    font-weight:bold;
-
-}
-
-/* PAGES */
-
-.page{
-
-    max-width:900px;
-
-    margin:auto;
-
-    font-size:22px;
-
-    line-height:1.8;
-
-}
-
-/* FOOTER */
-
-footer{
-
-    text-align:center;
-
-    padding:30px;
-
-    color:#666;
-
-}
-
-/* RESPONSIVE */
-
-@media(max-width:900px){
-
-.livre{
-
-    flex-direction:column;
-
-    text-align:center;
-
-}
-
-.livre img{
-
-    width:260px;
-
-}
-
-header h1{
-
-    font-size:40px;
-
-}
-
-.texte h2{
-
     font-size:34px;
-
-}
-
 }
