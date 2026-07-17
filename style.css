@@ -1,6 +1,0 @@
-/* DEPRECATED: style.css replaced by ccs.style
-   This file is kept for compatibility. All real styles live in ccs.style.
-   If you want to fully remove style.css, delete this file from the repository after merging fix/unify-styles.
-*/
-
-@import url("ccs.style");
