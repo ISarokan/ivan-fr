@@ -115,6 +115,8 @@ main{
 }
   /* Bouton style "livre" repris de maison.html */
     .book-button {
+   appearance:none;
+   -webkit-appearance:none;
       display: inline-block;
       margin-top: 1rem;
       padding: 1em 2em;
