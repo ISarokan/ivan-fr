@@ -139,7 +139,12 @@ Une page dédiée vous permet de le découvrir ci-dessous.
 </main>
 
 <footer style="text-align:center;padding:40px;border-top:1px solid #ddd;">
+<p>👥 Visites : <span id="compteur">...</span></p>
 
+<script>
+fetch("https://api.countapi.xyz/hit/ivan-fr/site")
+.then(r=>r.json()).then(d=>document.getElementById("compteur").textContent=d.value);
+</script>
 © Ivan Sarokan — Éditions du Luberon
 
 </footer>
